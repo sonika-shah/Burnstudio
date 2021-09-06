@@ -1,0 +1,557 @@
+* {
+    box-sizing: border-box;
+ }
+body{
+    margin:0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.skin-width{
+    margin-left: 5em;
+    margin-right: 7em;
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+    color:#e4e0e0;
+    border:0.01px solid;
+}
+/**---------------------------------------Header section(section 1) startts-----------------------------*/
+.section1{
+    font-family: 'Poppins',sans-serif;
+}
+.nav-logo-container{
+    /*
+    display: inline-block;
+    margin-left: 12em;
+    margin-right: 25em;
+    */
+    float:left;
+    font-size: 0.9em;
+}
+#burnstudio-logo{
+    padding: 0px;
+    /*display: inherit;*/
+}
+#burnstudio-logo-red{
+    color:#ff0000;
+    margin: 0px;
+    padding: 0px;
+   /* display: inherit;*/
+}
+#nav-link-container{
+  /*  display: inline-block;*/
+  float:right;
+  margin-top: 30px;
+}
+#nav-link-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#nav-link-container li {
+    float: left;
+    color: #ADADAD;
+}
+
+#nav-link-container li a {
+   padding: 8px 0;
+   text-decoration: none;
+   color: #000000;
+}
+#nav-link-container li a:hover {
+   padding: 8px 0;
+   text-decoration: none; 
+    color: #ADADAD;
+}
+#nav-link-container  .nav-link-slash{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+/**---------------------------------------Header section(section 1) ends-----------------------------*/
+/**---------------------------------------section 2 startts-----------------------------*/
+.section2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background:url(./img/black-white\ mountain.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+.section2::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(233, 223, 223, 0.315);
+}
+.section2 h1{
+    font-family: 'Poppins', sans-serif;
+   /* margin:4% 5% 0 2%;*/
+    font-size: 1.8em;    
+}
+.section2 p{
+   /* margin: 4% 20%;*/
+    line-height: 1.6;
+    padding: 0 11em;
+}
+.section2 button{
+    border-radius: 7px;
+    background-color: #222222;
+    color: #ffffff;
+    padding: 0.8em 3em;
+    font-size: 1em;
+    margin: 2em 0;
+}
+/**---------------------------------------section 2 ends-----------------------------*/
+/**---------------------------------------section 3 starts-----------------------------*/
+.section3{   
+   /* margin: 2% 8%;*/
+}
+.section3 h1{
+    font-family: 'Poppins', sans-serif;
+   /* margin-left: 4em;*/
+    font-size: 1.7em;
+}
+.cardContainer{
+    /*
+    margin-left: 6em;
+    margin-top: 3em;
+    */
+}
+.card{
+    background-color: #ffffff;
+    
+   /* margin-right: 2em;*/
+    border: 2px solid #CCCCCC;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-bottom: 2em;
+ }
+ .card1{
+    float: left;
+ }
+ .card2{
+    float: left;
+    margin-left: 10em;
+    margin-right: 0em;  
+ }
+ .card3{
+    float: right; 
+ }
+ .card .grey-box{
+    background-color: #CCCCCC;
+    width: 20em;
+    height: 12em;
+    overflow: hidden;
+ }
+ .card h4{
+     color: #6F6F6F;
+     font-style: italic;
+ }
+ .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ /**---------------------------------------section 3 ends-----------------------------*/
+ /**---------------------------------------section 4 starts-----------------------------*/
+ .section4{
+     background-color: #E5E5E5;
+     font-family: 'Poppins',sans-serif;
+     /*padding: 4em 10em;*/
+     width: 100%;
+ }
+ .column {
+    width: 50%;
+    height: auto;
+  }
+.column1{
+    padding: 25px 15px 25px 0;
+    float: left;
+}
+.column2{
+    padding: 25px 0 25px 25px;
+    float: right;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .section4 h1{
+      font-size: 1.5em;
+  }
+ .section4 p{
+     color :#565656;
+ }
+ .section4 i{
+     border: 3px solid #000000;
+     border-radius: 50%;
+     padding: 0.2em 0.3em;
+     margin: 1.2em 0.2em 0 0;
+     font-size: 1.5em;
+ }
+ .right-container-item .grey-box{
+    height: 7em;
+    width:  8em;
+    background-color: #cccccc3d;
+    background-image: url(https://images.pexels.com/photos/6782351/pexels-photo-6782351.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+    float:left;
+    margin-right: 15px;
+ }
+ .right-container-item-info{
+     float: right;
+ }
+ .right-container-item p{
+    font-size: 1em;
+    color: #000000;
+ }
+ 
+ .right-container-item .details{
+    font-size: 0.8em;
+    color: #FF0000;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .right-container-item .details .date{
+    font-size: 0.9em;
+    color: #878787;
+    font-family: 'Roboto', sans-serif;
+ }
+.right-container hr{
+    color: #D5D5D5;
+    clear: both;
+    margin-top: 1em;
+}
+/**---------------------------------------section 4 ends-----------------------------*/
+/**---------------------------------------section 5 starts-----------------------------*/
+.section5{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1em;
+}
+.section5 #burnstudio-logo{
+    font-size: 1.2em;
+}
+.section5 #nav-link-container{
+    font-size: 1em;
+    margin-top: 25px;
+}
+.section5 #nav-link-container li a:hover {
+    padding: 8px;
+    text-decoration: none; 
+     color: #1D9E9D;
+     
+ }
+ /**---------------------------------------section 5 ends-----------------------------*/
+ @media only screen and (max-width:1024px){
+    #burnstudio-logo{
+        font-size: 1.8em;
+    }
+    #nav-link-container{
+        margin-top: 25px;
+      }
+    .section2 h1{
+        font-family: 'Poppins', sans-serif;
+       /* margin:4% 5% 0 2%;*/
+        font-size: 1.5em;    
+    }
+    .section3 h1{
+        font-size: 1.5em;  
+    }
+    .section2 p{
+        /* margin: 4% 20%;*/
+         line-height: 1.6;
+         padding: 0 6em;
+     }
+    .card1{
+        float: left;
+     }
+     .card2{
+        margin-left: 1.7em;
+        margin-right: 1em;  
+     }
+     .card3{
+        float: right; 
+     }
+     .card .grey-box{
+        background-color: #CCCCCC;
+        width: 16em;
+        height: 12em;
+        overflow: hidden;
+     }
+
+     .section4 i{
+        margin: 1.5em 0.2em 0 0;
+    }
+     .column2{
+        padding: 25px 0 25px 40px;
+        float: right;
+    }
+     .right-container-item .grey-box{
+        height: 5em;
+        width:  8em;
+        background-color: #CCCCCC;
+        float:left;
+     }
+     .right-container-item p{
+        font-size: 1em;
+        color: #000000;
+        margin-right: 0.3em;
+     }
+     .section5 #nav-link-container{
+        margin-top: 20px;
+     }
+     
+ }
+ @media only screen and (max-width:812px){
+    .skin-width{
+        margin-left: 3em;
+        margin-right: 3em;
+    } 
+    .card2{
+        margin-left: 1em;
+        margin-right: 0.7em;  
+     }
+    .card .grey-box{
+        background-color: #CCCCCC;
+        width: 14em;
+        height: 12em;
+        overflow: hidden;
+     }
+ }
+@media only screen and (max-width:768px){
+   /* For tablet*/
+   .skin-width{
+    margin-left: 3em;
+    margin-right: 3em;
+    }
+    #burnstudio-logo{
+    font-size: 1.7em;
+    /*display: inherit;*/
+    }
+    #nav-link-container{
+        /*  display: inline-block;*/
+        float:right;
+        margin-top: 22px;
+      }
+.section2 h1{
+    font-family: 'Poppins', sans-serif;
+   /* margin:4% 5% 0 2%;*/
+    font-size: 1.5em;    
+}
+.section2 p{
+   /* margin: 4% 20%;*/
+    line-height: 1.6;
+    padding: 0 6em;
+}
+.section2 button{
+    border-radius: 7px;
+    background-color: #222222;
+    color: #ffffff;
+    padding: 0.8em 3em;
+    font-size: 1em;
+    margin: 1em 0;
+}
+.card1,.card2,.card3{
+    float: none;
+}
+.card2{
+    margin: 2em 0;
+}
+.cardContainer{
+    margin:0 7em;
+}
+.card .grey-box{
+    width:100%;
+    overflow: hidden;
+ }
+ .right-container-item p{
+    font-size: 0.9em;
+    color: #000000;
+ }
+ .right-container-item .grey-box{
+    height: 5em;
+    width:  8em;
+    
+ }
+ .section5 #burnstudio-logo {
+    font-size: 1.1em;
+}
+.section5 #nav-link-container{
+    font-size: 0.9em;
+    padding-top: 4px;
+}
+}
+@media only screen and (max-width: 480px){
+    /* For mobile phones: */
+    .skin-width{
+        margin-left: 2em;
+        margin-right:2em;
+    }
+    #burnstudio-logo{
+        font-size: 1.5em;
+        margin: 1em 0 0 4em;
+        /*display: inherit;*/
+    }
+    #nav-link-container{
+            /*  display: inline-block;*/
+            margin: 12px 0;
+    }
+    .section2 h1{
+        font-family: 'Poppins', sans-serif;
+       /* margin:4% 5% 0 2%;*/
+        font-size: 1.1em;  
+        text-align: center;  
+        margin-top: 1em;
+    }
+    .section2 p{
+        /* margin: 4% 20%;*/
+         line-height: 1.6;
+         padding: 0 2em;
+         font-size: 0.9em;
+         text-align: center;
+     }
+     .section2 button{
+        padding: 0.5em 2em;
+        font-size: 0.9em;
+        margin: 1.5em 0;
+    }
+    .section3 h1{
+        font-size: 1.3em;  
+    }
+    .card1,.card2,.card3{
+        float: none;
+    }
+    .card2{
+        margin: 0 0 2em 0;
+    }
+    .cardContainer{
+        margin:0 ;
+    }
+    .card .grey-box{
+        width:100%;
+        overflow: hidden;
+     }
+     .column{
+         width: 100%;
+     }
+     .section4 h1{
+         font-size: 1.48em;
+     }
+     .section4 p{
+        font-size: 0.9em;
+    }
+    .section4 i{
+        font-size: 1.2em;
+    }
+    .column1{
+        padding: 25px 0px 25px 0;
+        float: left;
+    }
+    .column2{
+        padding: 0px 0 25px 0px;
+        float: right;
+    }
+    .section5 #burnstudio-logo{
+        font-size: 1em;
+        margin: 1em 0 0 3.5em;
+        /*display: inherit;*/
+    }
+    .section5 #nav-link-container {
+        float: left;
+        margin-top: 18px;
+        margin-left: 2.5em;
+    }
+}
+@media only screen and (max-width: 414px){
+    #burnstudio-logo{
+        font-size: 1.5em;
+        margin: 1em 0 0 5em;
+        /*display: inherit;*/
+    }
+    #nav-link-container{
+            /*  display: inline-block;*/
+            margin: 12px 0 12px 3em;
+            font-size: 0.9em;
+            float:left;
+    }
+    
+    .section5 #burnstudio-logo{
+        font-size: 1em;
+        margin: 1em 0 0 5em;
+        /*display: inherit;*/
+    }
+    .section5 #nav-link-container {
+        float: left;
+        margin-top: 18px;
+        margin-left: 4em;
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width: 375px){
+    #burnstudio-logo{
+        font-size: 1.5em;
+        margin: 1em 0 0 4em;
+        /*display: inherit;*/
+    }
+    #nav-link-container{
+            /*  display: inline-block;*/
+            margin: 12px 0 12px 1.5em;
+            font-size: 0.9em;
+            float:left;
+    }
+    .section5 #burnstudio-logo{
+        font-size: 1em;
+        margin: 1em 0 0 3em;
+        /*display: inherit;*/
+    }
+    .section5 #nav-link-container {
+        float: left;
+        margin-top: 18px;
+        margin-left: 2em;
+    }
+}
+@media only screen and (max-width: 320px){
+    #burnstudio-logo{
+        font-size: 1.5em;
+        margin: 1em 0 0 3em;
+        /*display: inherit;*/
+    }
+    #nav-link-container{
+            /*  display: inline-block;*/
+            margin: 12px 0 12px 8px;
+            font-size: 0.8em;
+            float:left;
+    }
+    .section2 h1{
+        font-family: 'Poppins', sans-serif;
+       /* margin:4% 5% 0 2%;*/
+        font-size: 1em;  
+        text-align: center;  
+        margin-top: 1em;
+    }
+    
+    .section5 #burnstudio-logo{
+        font-size: 1em;
+        margin: 1em 0 0 2.5em;
+        /*display: inherit;*/
+    }
+    .section5 #nav-link-container {
+        float: left;
+        margin-top: 18px;
+        margin-left: 2em;
+        font-size: 0.8em;
+    }
+}
